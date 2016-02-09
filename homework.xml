@@ -14,26 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">99999*99999=</field>
-            <next>
-              <block type="oled_drawnumber" id="6" inline="true">
-                <value name="NUMBER">
-                  <block type="math_arithmetic" id="7" inline="true">
-                    <field name="OP">MULTIPLY</field>
-                    <value name="A">
-                      <block type="math_number" id="8">
-                        <field name="NUM">99999</field>
-                      </block>
-                    </value>
-                    <value name="B">
-                      <block type="math_number" id="9">
-                        <field name="NUM">99999</field>
-                      </block>
-                    </value>
-                  </block>
-                </value>
-              </block>
-            </next>
+            <field name="TEXT">9+10=21</field>
           </block>
         </next>
       </block>
