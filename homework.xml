@@ -1,5 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="sensor_light" id="43" x="289" y="78">
-    <field name="LIGHT">LEFT</field>
+  <block type="controls_whileUntil" id="136" inline="false" x="161" y="83">
+    <field name="MODE">WHILE</field>
+    <value name="NUMBER">
+      <block type="sensor_light" id="43">
+        <field name="LIGHT">LEFT</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_stutter" id="146"></block>
+    </statement>
   </block>
 </xml>
