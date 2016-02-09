@@ -15,6 +15,11 @@
         <next>
           <block type="oled_drawtext" id="5">
             <field name="TEXT">9+10=21</field>
+            <next>
+              <block type="oled_drawtext" id="10">
+                <field name="TEXT">:)</field>
+              </block>
+            </next>
           </block>
         </next>
       </block>
